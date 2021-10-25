@@ -1,6 +1,12 @@
 maxPreviewsCached: 10
 vaults:
     -
+        fsPath: Megafauna
+        remote:
+            type: git
+            url: 'https://github.com/sjaakjules/Vault-Megafauna'
+        name: Megafauna
+    -
         fsPath: vault
 useFMTitle: true
 useNoteTitleForLink: true
@@ -37,6 +43,7 @@ site:
         action: useVault
         payload:
             - vault
+            - Megafauna
 version: 1
 lookupConfirmVaultOnCreate: false
 lookup:
